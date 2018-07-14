@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form Demo</title>
+</head>
+<!-- cntr+k cntr+c -->
+
+<body>
+    <h1>Log in</h1>
+    <form>
+        <label>
+            Email:
+        <input type="Email" placeholder="Email" required>
+        </label>
+
+        <label for="Password">password:</label>
+        <input id="Password" type="Password" placeholder="Password" pattern=".{5,10}" Required title="5 to 10 characters">
+
+        <!-- <input type="submit"> -->
+
+        <p>Dog or Cat</p>
+        <label for="DOg">Dog</label>
+        <input type="radio" name="Pet" id="Dog" value="DOG">
+        <label for="Cat">Cat</label>
+        <input type="radio" name="Pet" id="Cat" value="CAT">
+
+        <p>Favourite Color</p>
+        <select name="COlor">
+            <option value="Black">Black</option> 
+            <option value="White">White</option>
+            <option value="Pink">Pink</option>
+            <option value="Blue">Blue</option>
+        </select>
+
+        <Button>Submit</Button>
+        <Textarea rows="10" cols="50"></Textarea>
+    </form>
+
+</body>
+
+</html>
